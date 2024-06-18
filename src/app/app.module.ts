@@ -17,8 +17,8 @@ import { metaReducers } from 'projects/mamta-medical-store/src/lib/Logout/Store.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot(AppReducer,{metaReducers}),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() })
+      StoreModule.forRoot(AppReducer,{metaReducers}),
+      StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() })
     
   ],
   providers: [],

@@ -1,13 +1,37 @@
 
 export interface Search_state{
-    Data:any;
+    Search:any;
 }
 export interface MedicineType_state{
-    Data:any;
+    Medicinetype:any;
 }
 export interface Productid_state{
-    Data:any;
+    Productid:any;
 }
 export interface Addtocart_state{
-    Data:any;
+    Addtocart:any;
+}
+export interface CartCount_state{
+    Cartcount:any;
+}
+export interface Navigate_state{
+    Navigate:any;
+}
+export interface Transfer_state{
+    Transfer:any;
+}
+export interface Ip_state{
+    Ip:any;
+}
+export interface Image_state{
+    Image:any;
+}
+export interface Icon_state{
+    Icon:any;
+}
+export interface Server_state{
+    Server:any;
+}
+export interface Mediaquery_state{
+    Mediaquery:any;
 }
